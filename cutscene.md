@@ -69,3 +69,15 @@ CutScene/
 
 ```
 
+常见轨道
+
+1. Track Group(轨道组)
+
+   用途：归类，方便管理![示例](cutscene.assets/tapd_20332331_base64_1577168206_99.png)
+
+   
+
+   
+
+   
+
