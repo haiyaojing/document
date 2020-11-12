@@ -54,6 +54,7 @@ public enum PkgEntryType
 
 ##### pkg文件的组成结构
 
+```
 pkg
 ├─headeroffset(int64)指向pkg文件头位置
 ├─资源1
@@ -69,6 +70,9 @@ pkg
 ├─Entry头2
 ...
 └─Entry头N
+```
+
+
 
 ##### PKG版本号
 
