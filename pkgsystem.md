@@ -142,11 +142,25 @@ pkg生成基于.net core3.1
 
 依赖于PkgConsole，基于wpf，做的一个简单的可视化界面，用于查看pkg信息
 
+####	生成
+
 通过shell调用接口生成即可，示例如下：
 
 ```shell
 dotnet clientproj/Tools/PkgConsole/PkgConsole.dll --create roab/${platform} ${EnvBakDir}/publish/t_${intra_ver}.${main_version}.${big_version}.${inner_version}.main.${version_code}.${bundle_id} ${main_version}.${big_version}.${inner_version}
 ```
+
+${platform}:Android/iOS/Standalone
+
+${EnvBakDir}:bak
+
+${intra_ver}:打包唯一识别ID
+
+${main_version}.${big_version}.${inner_version}:APK版本
+
+${version_code}:version_code
+
+${bundle_id}:包名
 
 
 
@@ -671,6 +685,8 @@ public class ObbDownloader extends ISDK {
 ## 工作流
 
 1. 进入打包页面，务必选择如图所示几个箭头指向的选项，红框的域名需要记一下，在后面上传pkg时有用
+
+   https://gameadmin.123u.com/RO_NET/devops/client-manage/client-package-log
 
 <img src="pkgsystem.assets/image-20201112152920551.png" alt="image-20201112152920551" style="zoom:33%;" />
 
