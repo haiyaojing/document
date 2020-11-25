@@ -339,4 +339,15 @@ CinemachineShot
 
 ## 编辑器入口
 
-Windows/剧情
+Windows/剧情编辑
+
+<img src="cutscene.assets/timeline_editor.png" alt="timeline_editor" style="zoom: 80%;" />
+
+- 选中Project中的场景，然后点击"打开场景"按钮即可打开StoryEdior编辑器
+- 点击数据文件名可快速定位当前场景存在哪些timeline
+- 输入框可直接输入timeline名
+- "导入"按钮会将输入框中的内容导入
+- “存储”按钮会将当前timeline保存
+- 模型创建，根据自己选择，创建模型即可
+
+导入资源后，打开Timeline编辑器，选中CutSceneRoot节点，即可在Timeline编辑器中预览效果，根据需求添加对应的轨道、切片等等
