@@ -142,6 +142,14 @@ pkg生成基于.net core3.1
 
 依赖于PkgConsole，基于wpf，做的一个简单的可视化界面，用于查看pkg信息
 
+通过shell调用接口生成即可，示例如下：
+
+```shell
+dotnet clientproj/Tools/PkgConsole/PkgConsole.dll --create roab/${platform} ${EnvBakDir}/publish/t_${intra_ver}.${main_version}.${big_version}.${inner_version}.main.${version_code}.${bundle_id} ${main_version}.${big_version}.${inner_version}
+```
+
+
+
 ## 运行时PKG读取
 
 ##### 初始化
@@ -688,8 +696,3 @@ response：
 ```
 
 
-
-
-
-
-```
