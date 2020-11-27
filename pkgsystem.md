@@ -688,10 +688,10 @@ public class ObbDownloader extends ISDK {
 
    https://gameadmin.123u.com/RO_NET/devops/client-manage/client-package-log
 
-<img src="pkgsystem.assets/image-20201112152920551.png" alt="image-20201112152920551" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/image-20201112152920551.png" alt="image-20201112152920551" style="zoom:33%;" />
 
 2. 打包完成后，在pkg列表标签可以找到刚才打的pkg，点击上传，这里只需要选择cdn，和前面打包选择的域名时一一对应的
-3. <img src="pkgsystem.assets/image-20201112153217333.png" alt="image-20201112153217333" style="zoom:33%;" />
+3. <img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/image-20201112153217333.png" alt="image-20201112153217333" style="zoom:33%;" />
 
 ​      
 
@@ -712,7 +712,3 @@ response：
 ```
 
 
-
-
-
-完整内容参考：https://github.com/haiyaojing/document/blob/master/pkgsystem.md

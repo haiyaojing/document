@@ -95,24 +95,24 @@ StoryTools/
 
 ###  Track Group(轨道组)
 用途：归类，方便管理
-<img src="cutscene.assets/wpsbRdvp7.jpg" alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsbRdvp7.jpg" alt="img" style="zoom:50%;" />
 
 ### Activation Track(显隐)
 绑定关系:绑定控制的GO节点
 #### 切片
 控制GameObject节点显隐，时间轴对应的切片存在，显示；否则隐藏
-<img src="cutscene.assets/wpsinEhdF.jpg" alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsinEhdF.jpg" alt="img" style="zoom:50%;" />
 
 ### Animation Track(动画)
 绑定关系:绑定带Animator的GO节点
 #### 切片
 1. Infinite Clip 直接k帧，操作和Animation类似，也可以到对应的属性上右键Addkey
-   <img src="cutscene.assets/wpst9PPWX.jpg" alt="img" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpst9PPWX.jpg" alt="img" style="zoom:50%;" />
    可单向转换成动画切片，但无法反向转换
 
 2. Animation Clip 使用游戏中现有动画资源，切片拖到轨道上即可
-   <img src="cutscene.assets/wpsKHfrHN.jpg" alt="img" style="zoom:50%;" />
-   <img src="cutscene.assets/wpsrplhHb.jpg" alt="img" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsKHfrHN.jpg" alt="img" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsrplhHb.jpg" alt="img" style="zoom:50%;" />
    Clip Timing为该切片的具体参数， s 代表单位是秒，f 代表单位是帧
    Start为切片开始、End为结束、Duration为时长
    Ease In Duration 渐入时间（如果和上一个切片存在融合，则此处无法编辑）
@@ -122,11 +122,11 @@ StoryTools/
 
 #### 融合
 多个切片相交即会产生融合，还可设置融合曲线
-<img src="cutscene.assets/wpsP4U1Yu.jpg" alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsP4U1Yu.jpg" alt="img" style="zoom:50%;" />
 
 #### Animation Extrapolation
 即以什么形式进入切片、以及出切片(默认是Hold)
-<img src="cutscene.assets/wpssJKwwt.jpg" alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpssJKwwt.jpg" alt="img" style="zoom:50%;" />
 
 ##### Pre
 
@@ -150,13 +150,13 @@ StoryTools/
 
 #### Override Track(动画片段覆盖)
 
-<img src="cutscene.assets/wpsbJXr5s.jpg" alt="img" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsbJXr5s.jpg" alt="img" style="zoom:67%;" />
 
 如上图，30-60帧之间的动画为OverrideTrack的动画
 
 给OverrideTrack指定AvatarMask，可指定切片部分覆盖，可实现人物跑动但是上半身在欢呼动作的效果，具体覆盖部分看AvatarMask里设置
-<img src="cutscene.assets/wpsbqJY64.jpg" alt="img" style="zoom:50%;" />
-<img src="cutscene.assets/wpsCYDm8v.jpg" alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsbqJY64.jpg" alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsCYDm8v.jpg" alt="img" style="zoom:50%;" />
 
 ### Audio Track(音频)
 项目不使用
@@ -168,10 +168,10 @@ StoryTools/
 1. MCgSpeedShot 控制时间流逝速率
 - desSpeed 目标速率
 - sGradually 插值
-  <img src="cutscene.assets/wps2CbTno.jpg" alt="img" style="zoom: 50%;" />
+  <img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wps2CbTno.jpg" alt="img" style="zoom: 50%;" />
 
 2. MLoopShot 切片内循环播放
-![img](cutscene.assets/wpsQi4660.jpg)
+![img](https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsQi4660.jpg)
 
 ### FMOD Event Track(Fmod)
 绑定关系:GameObject
@@ -186,9 +186,9 @@ StoryTools/
 ##### 切片
 SpineAnimationStateClip
 红框内为引用动画资源
-![img](cutscene.assets/wpshvzdcS.jpg)
+![img](https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpshvzdcS.jpg)
 引用的资源一般用对应的Spine动画导出即可
-![img](cutscene.assets/wps8agLvB.jpg)
+![img](https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wps8agLvB.jpg)
 
 ### Spine Skeleton Flip Track
 绑定关系:SkeletonAnimationPlayableHandle组件
@@ -196,7 +196,7 @@ SpineAnimationStateClip
 ##### 切片
 翻转X轴、翻转Y轴
 
-![img](cutscene.assets/wpswAnF6r.jpg)
+![img](https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpswAnF6r.jpg)
 
 ### Cinemachine Track
 绑定关系:MainCamera、并且带CinemachineBrain组件
@@ -242,7 +242,7 @@ CinemachineShot
 具体参数可找龙哥、超锅确认
 最后会索引到一张贴图
 
-![img](cutscene.assets/wpshmq12c.jpg)
+![img](https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpshmq12c.jpg)
 
 ### MFx Track(特效)
 特效ID:EffectTable的id
@@ -273,9 +273,7 @@ CinemachineShot
 
 切片期间，特效可进行变换
 
-<img src="cutscene.assets/wps1XdArD.jpg" alt="img" style="zoom:50%;" />
 
- 
 
 ##### MHide Track(隐藏)
 
@@ -293,7 +291,7 @@ CinemachineShot
 
 此轨道没有MPostFxTrack那么灵活，在原基础上进行了封装
 
-![img](cutscene.assets/wpsp7qVgj.jpg)
+![img](https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpsp7qVgj.jpg)
 
 - RedEye：红眼
 - Desaturate：褪色
@@ -314,7 +312,7 @@ CinemachineShot
 显式指定阴影投射点
 
 ### MShakeScreen Track(相机晃动)
-![img](cutscene.assets/wpst3aZ7j.jpg)
+![img](https://raw.githubusercontent.com/haiyaojing/document/master/uPic/wpst3aZ7j.jpg)
 主相机在一定范围、角度抖动
 
 ### MStoryWork Track
@@ -341,7 +339,7 @@ CinemachineShot
 
 Windows/剧情编辑
 
-<img src="cutscene.assets/timeline_editor.png" alt="timeline_editor" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/haiyaojing/document/master/uPic/timeline_editor.png" alt="timeline_editor" style="zoom: 80%;" />
 
 - 选中Project中的场景，然后点击"打开场景"按钮即可打开StoryEdior编辑器
 - 点击数据文件名可快速定位当前场景存在哪些timeline
